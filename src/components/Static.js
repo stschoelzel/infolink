@@ -2,7 +2,7 @@ import React from "react";
 
 export const Static = () => {
   return (
-    <div class="flex flex-col items-center justify-center p-20">
+    <div class="flex flex-col flex-nowrap items-center justify-center p-10 space-y-2">
       <div class="staticelement">
         <a href="https://infocafe.org/">website</a>
       </div>
