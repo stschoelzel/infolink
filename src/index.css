@@ -13,7 +13,4 @@
 }
 
 @layer components {
-  .staticelement {
-    @apply bg-blue-300 text-gray-800 font-bold rounded-md p-1 w-8 text-center hover:bg-blue-100;
-  }
 }
