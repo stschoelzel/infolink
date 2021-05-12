@@ -1,7 +1,7 @@
 // import logo from './logo.svg'; //faviocon machen finden bla
 
 import { ApolloClient, createHttpLink, InMemoryCache } from "@apollo/client";
-
+import { ApolloProvider } from "react-apollo";
 import { Dynamic } from "./components/Dynamic";
 import { Static } from "./components/Static";
 
@@ -16,10 +16,10 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <div>
+    <ApolloProvider client={client}>
       <Static />
       <Dynamic />
-    </div>
+    </ApolloProvider>
   );
 }
 
