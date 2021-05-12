@@ -2,6 +2,7 @@ import React from "react";
 import { gql } from "@apollo/client";
 //import { useQuery } from "react-apollo";
 
+/**
 const INFOLINK = gql"
 { 
   infolinkMeta {
@@ -35,7 +36,8 @@ export const Dynamic = (infolink_what, infolink_info, linklogo) => {
   );
 };
 
-/**
+*/
+
 export const Dynamic = () => {
   return (
     <div class="flex flex-wrap m-2">
@@ -54,4 +56,3 @@ export const Dynamic = () => {
     </div>
   );
 };
-*/
