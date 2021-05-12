@@ -48,7 +48,7 @@ export const Dynamic = () => {
             src="https://infocafe.org/wp-content/uploads/2020/08/twitch.png"
           ></img>
           <div class="flex-grow">
-            <h2 class="text-gray-800 font-bold">Club Digital – Die Daten!</h2>
+            <h2 class="text-gray-800 font-bold">Club Digital – Die Daten!?</h2>
             <p class="text-gray-600">website</p>
           </div>
         </div>
