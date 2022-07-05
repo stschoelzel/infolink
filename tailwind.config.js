@@ -10,6 +10,17 @@ module.exports = {
         "3/4": "75%",
         full: "100%",
       },
+      colors: {
+        // Configure your color palette here
+        'Türkis': '#8acbc1',
+        'Dunkelblau': '#2e4053',
+        'Gelb': '#f1ea75',
+        'Rot': '#ef7983',
+      },
+      fontFamily: {
+        //Stolzl Medium für Headlines, Roboto Regular Text 
+        'sans': ['Roboto'],
+      }
     },
   },
   variants: {

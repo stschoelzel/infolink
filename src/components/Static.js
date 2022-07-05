@@ -15,9 +15,9 @@ export const Static = () => {
 const Button = ({ url, label }) => {
   return (
     <div className="h-8 w-40 relative cursor-pointer mb-5">
-      <div className="absolute inset-0 bg-blue-100 rounded-md shadow-2xl"></div>
+      <div className="absolute inset-0 bg-Gelb rounded-md shadow-2xl"></div>
       <div className="absolute inset-0 transform  hover:scale-90 transition duration-300">
-        <div className="h-full w-full bg-blue-300 text-gray-800 text-base text-center font-bold rounded-md pt-1 shadow-2xl">
+        <div className="h-full w-full bg-Türkis text-Dunkelblau text-center font-bold rounded-md pt-1 shadow-2xl">
           <a href={url}>{label}</a>
         </div>
       </div>
