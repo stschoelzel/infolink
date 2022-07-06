@@ -3,11 +3,12 @@ import React from "react";
 export const Static = () => {
   return (
     <div className="flex flex-col flex-nowrap items-center justify-center pt-7 pb-3">
-      <Button url="https://twitter.com/Infocafe" label="twitch" />
       <Button url="https://infocafe.org" label="website" />
       <Button url="https://www.instagram.com/infocafeni" label="instagram" />
-      <Button url="https://www.youtube.com/infocafe" label="youtube" />
+      <Button url="https://www.facebook.com/infocafe" label="facebook" />
       <Button url="https://twitter.com/Infocafe" label="twitter" />
+      <Button url="https://www.youtube.com/infocafe" label="youtube" />
+      <Button url="https://www.twitch.tv/infocafe" label="twitch" />
     </div>
   );
 };
@@ -34,4 +35,4 @@ const Button = ({ url, label }) => {
   );
 };
 
-const colors = ["#2e4053", "#f1ea75", "#ef7983"];
+const colors = ["#f1ea75", "#ef7983"];
