@@ -13,7 +13,7 @@ export const Static = () => {
 };
 
 const Button = ({ url, label }) => {
-  const [color, setColor] = React.useState("Gelb");
+  const [color, setColor] = React.useState("#f1ea75");
   return (
     <div
       className="h-8 w-40 relative cursor-pointer mb-5"
@@ -22,7 +22,8 @@ const Button = ({ url, label }) => {
       }
     >
       <div
-        className={`absolute inset-0 bg-${color} rounded-md shadow-2xl`}
+        style={{ background: color }}
+        className={`absolute inset-0  rounded-md shadow-2xl`}
       ></div>
       <div className="absolute inset-0 transform  hover:scale-90 transition duration-300">
         <div className="h-full w-full bg-Türkis text-Dunkelblau text-center font-headline rounded-md pt-1 shadow-2xl">
@@ -33,4 +34,4 @@ const Button = ({ url, label }) => {
   );
 };
 
-const colors = ["Dunkelblau", "Gelb", "Rot"];
+const colors = ["#2e4053", "#f1ea75", "#ef7983"];
