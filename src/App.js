@@ -2,6 +2,9 @@
 
 import { ApolloClient, createHttpLink, InMemoryCache } from "@apollo/client";
 import { ApolloProvider } from "react-apollo";
+import { Dynamic } from "./components/Dynamic";
+import { Header } from "./components/Header";
+import { Impressum } from "./components/Impressum";
 import { Static } from "./components/Static";
 
 const link = createHttpLink({
@@ -16,7 +19,10 @@ const client = new ApolloClient({
 function App() {
   return (
     <ApolloProvider client={client}>
+      <Header />
       <Static />
+      <Dynamic />
+      <Impressum />
     </ApolloProvider>
   );
 }

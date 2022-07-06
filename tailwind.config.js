@@ -20,6 +20,7 @@ module.exports = {
       fontFamily: {
         //Stolzl Medium für Headlines, Roboto Regular Text 
         'sans': ['Roboto'],
+        'headline': ['Stolzl-Medium'],
       }
     },
   },
