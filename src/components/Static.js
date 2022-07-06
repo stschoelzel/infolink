@@ -2,7 +2,7 @@ import React from "react";
 
 export const Static = () => {
   return (
-    <div className="flex flex-col flex-nowrap items-center justify-center pt-7 pb-3">
+    <div className="flex flex-col flex-nowrap items-center justify-center pt-1 pb-1">
       <Button url="https://infocafe.org" label="website" />
       <Button url="https://www.instagram.com/infocafeni" label="instagram" />
       <Button url="https://www.facebook.com/infocafe" label="facebook" />
