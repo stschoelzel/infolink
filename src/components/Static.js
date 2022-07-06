@@ -17,7 +17,7 @@ const Button = ({ url, label }) => {
     <div className="h-8 w-40 relative cursor-pointer mb-5">
       <div className="absolute inset-0 bg-Gelb rounded-md shadow-2xl"></div>
       <div className="absolute inset-0 transform  hover:scale-90 transition duration-300">
-        <div className="h-full w-full bg-Türkis text-Dunkelblau text-center font-custom rounded-md pt-1 shadow-2xl">
+        <div className="h-full w-full bg-Türkis text-Dunkelblau text-center font-headline rounded-md pt-1 shadow-2xl">
           <a href={url}>{label}</a>
         </div>
       </div>
